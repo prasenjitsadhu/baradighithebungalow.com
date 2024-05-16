@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        <%= data.blogName %> | Baradighi The Bungalow
+    </title>
+
+    <%- include('partials/header'); -%>
+
+
+        <div class="sidebar-page-container blog-single">
+            <div class="circles-two">
+                <div class="c-1"></div>
+                <div class="c-2"></div>
+            </div>
+
+            <span class="dotted-pattern dotted-pattern-5"></span>
+            <span class="tri-pattern tri-pattern-8"></span>
+
+            <div class="auto-container">
+                <div class="row clearfix">
+
+                    <!--Content Side-->
+                    <div class="content-side col-lg-8 col-md-12 col-sm-12">
+                        <div class="blog-content">
+                            <div class="post-details">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <div class="date"><span class="day">02</span>XII</div>
+                                        <figure class="image"><img src="/public/imagesF/experience/<%= data.image %>"
+                                                alt="<%= data.imageA %>" title=""></figure>
+                                    </div>
+                                    <div class="lower-box">
+                                        <h3>
+                                            <%= data.blogName %>
+                                        </h3>
+                                        <div class="text">
+                                            <%- data.content %>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <%- include('partials/sidebar'); -%>
+
+                </div>
+            </div>
+        </div>
+
+
+        <%- include('partials/footer'); -%>
