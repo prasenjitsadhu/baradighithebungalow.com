@@ -28,7 +28,7 @@
           "telephone": "+919147093901",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Baradighi Tea Estate, Dooars PO",
+            "streetAddress": "Baradighi Tea Estate, PO-Dooars",
             "addressLocality": "Jalpaiguri",
             "postalCode": "735206",
             "addressCountry": "IN"
@@ -53,7 +53,7 @@
             "closes": "23:59"
           },
           "sameAs": [
-            "https://www.facebook.com/baradighibungalow",
+            "https://www.facebook.com/baradighithebungalow",
             "https://twitter.com/baradighiresort",
             "https://www.youtube.com/channel/UC7ObIfcIBw2u2CdoUZVoVNA",
             "https://www.instagram.com/baradighibungalow/"
@@ -109,7 +109,7 @@
 <ul class="navigation clearfix">
 <li class="current"><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
-<li><a href="/rooms">Rooms</a>
+<li><a href="https://baradighibungalow.com/rooms">Rooms</a>
 </li>
 <li class="dropdown"><a href="/experience">Experience</a>
 <ul>
@@ -118,7 +118,7 @@
 <li><a href="/experience/#gallery">Gallery</a></li>
 </ul>
 </li>
-<li><a href="/dining">Dining</a></li>
+<li><a href="https://baradighithebungalow.com/dining">Dining</a></li>
 <li><a href="https://reservations.hotel-spider.com/034648705d4afda6?">Book Now</a></li>
 </ul>
 </div>
