@@ -118,7 +118,7 @@
 <li><a href="/experience/#gallery">Gallery</a></li>
 </ul>
 </li>
-<li><a href="/dining">Dining</a></li>
+<li><a href="./dining">Dining</a></li>
 <li><a href="https://reservations.hotel-spider.com/034648705d4afda6?">Book Now</a></li>
 </ul>
 </div>
