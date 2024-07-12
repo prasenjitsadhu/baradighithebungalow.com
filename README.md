@@ -109,7 +109,7 @@
 <ul class="navigation clearfix">
 <li class="current"><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
-<li><a href="https://baradighibungalow.com/rooms">Rooms</a>
+<li><a href="/rooms">Rooms</a>
 </li>
 <li class="dropdown"><a href="/experience">Experience</a>
 <ul>
@@ -118,7 +118,7 @@
 <li><a href="/experience/#gallery">Gallery</a></li>
 </ul>
 </li>
-<li><a href="https://baradighithebungalow.com/dining">Dining</a></li>
+<li><a href="/dining">Dining</a></li>
 <li><a href="https://reservations.hotel-spider.com/034648705d4afda6?">Book Now</a></li>
 </ul>
 </div>
