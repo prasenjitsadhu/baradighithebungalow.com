@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Baradighi The Bungalow | <%= data.roomName %>
+    </title>
+
+    <%- include('partials/header'); -%>
+
+
+        <!-- Banner Section -->
+        <section class="page-banner ext-banner">
+            <div class="image-layer" style="background-image:url(/public/imagesF/rooms/<%= data.mainImg %>);"></div>
+            <div class="banner-bottom-pattern"></div>
+
+            <div class="banner-inner">
+                <div class="auto-container">
+                    <div class="inner-container clearfix">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Banner Section -->
+
+        <!--Room Single Section-->
+        <section class="room-single">
+            <div class="circles-two">
+                <div class="c-1"></div>
+                <div class="c-2"></div>
+            </div>
+            <span class="dotted-pattern dotted-pattern-3"></span>
+            <span class="tri-pattern tri-pattern-3"></span>
+            <div class="auto-container">
+                <div class="upper-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="upper-inner">
+                        <h2>
+                            <%= data.roomName %>
+                        </h2>
+                        <div class="pricing clearfix">
+                            <div class="price">Starts From: <span>
+                                    <%= data.price %>
+                                </span> / Per Night</div>
+                        </div>
+                        <div class="text">
+                            <%- data.text %>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="details-inner">
+                        <h3>Room Amenities</h3>
+                        <div class="text">Your stay at Baradighi represents an experience, not a mere place. From a
+                            personal guide that takes to through the mesmerizing property and location, to superb
+                            heritage amenities, straight from the British Raj. Check the experience page to know more
+                            about the features of the property, some of the best you get with this room are:</div>
+                        <ul class="info clearfix">
+                            <li><span class="icon flaticon-tv"></span> Private Screenings</li>
+                            <li><span class="icon flaticon-wifi"></span> Wi-Fi</li>
+                            <li><span class="icon flaticon-coffee-cup"></span> Breakfast & Lunch</li>
+                            <li><span class="icon flaticon-bathtub"></span> Bathtub</li>
+                            <li><span class="icon flaticon-stones"></span> Spa</li>
+                            <li><span class="icon flaticon-newspaper"></span> Newspaper</li>
+                            <li><span class="icon flaticon-wine-glass"></span> Dinner</li>
+                            <li><span class="icon flaticon-dumbbell"></span> Sports Access</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="lower-box">
+                    <div class="row clearfix">
+                        <% let i=1; %>
+                            <% while (i < data.subImgCount+1) { %>
+                                <div class="image-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                    <figure class="image"><a
+                                            href="/public/imagesF/rooms/<%= data.subImg %><%= i %>.webp"
+                                            class="lightbox-image"><img
+                                                src="/public/imagesF/rooms/<%= data.subImg %><%= i %>.webp" alt=""
+                                                title=""></a></figure>
+                                </div>
+                                <% i++; %>
+                                    <% }; %>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <%- include('partials/footer'); -%>

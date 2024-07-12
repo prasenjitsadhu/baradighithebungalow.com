@@ -1,0 +1,29 @@
+PROJECT: BARADIGHI THE BUNGALOW 
+AUTHOR: INDRAPRASTHA DESIGN CO. 
+CONTRIBUTORS: YC, SP 
+
+Version 1.0 --
+Edited: server.js, dining.ejs 
+Created: foodApp.js. diningMenu.ejs
+
+- Created a working menu app controlled by foodApp.js that stores data and displays the dining menu.
+- Dining Page has been given a specific food gallery feature but not populated with content.
+
+Version 1.1 --
+Edited: foodApp.js, dining.ejs
+
+- Added data in foodApp.js for various menu items and created their routes
+- Edited dining.ejs with proper route links and navigation
+- Fixed spelling mistakes in soup route data
+- Added Meta Data on dining.ejs and fixed image not loading bug on dining.ejs & diningMenu.ejs
+- Changed Mobile Number in header and contact
+- Added gallery image
+
+Version 1.2 -- 
+Edited /views server.js
+
+- Changes all HTML Links to /public prefix 
+- Added localhost working /public route and added better NGNIX Route
+
+
+

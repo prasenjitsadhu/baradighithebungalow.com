@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Baradighi The Bungalow | Rooms</title>
+
+<%- include('partials/header'); -%>
+
+ <!-- Banner Section -->
+ <section class="page-banner">
+    <div class="image-layer" style="background-image:url(/public/imagesF/roomsHeader.webp);"></div>
+    <div class="banner-bottom-pattern"></div>
+
+    <div class="banner-inner">
+        <div class="auto-container">
+            <div class="inner-container clearfix">
+                <h1>Rooms & Suites</h1>
+                <div class="page-nav">
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="/">Home</a></li>
+                        <li class="active">Rooms & Suites</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Banner Section -->
+
+   <!--Rooms Section-->
+   <section class="rooms-section rooms-gallery">
+    <div class="auto-container">
+
+        <%- include('partials/roomsDisplay'); -%>
+
+    </div>
+</section>
+
+
+<%- include('partials/footer'); -%>
