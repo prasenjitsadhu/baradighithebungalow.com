@@ -6,7 +6,7 @@ const expRoutes = require('./routes/expApp');
 const blogRoutes = require('./routes/blogApp');
 const foodRoutes = require('./routes/foodApp');
 
-const port = https://prasenjitsadhu.github.io/baradighithebungalow.com/;
+const port = process.env.PORT || 3000;
 
 const app = express();
 
